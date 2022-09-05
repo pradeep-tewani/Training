@@ -1,0 +1,11 @@
+xyz: abc
+	cp abc xyz
+
+abc: pqr
+	cp pqr abc
+
+pqr:
+	touch pqr
+
+clean:
+	${RM} xyz abc pqr
