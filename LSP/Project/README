@@ -1,0 +1,30 @@
+Project
+======
+Stage-1 (Incorporating Signals)
+ - Complete all the todos (1 to 5) in libsig.c
+ - Complete todos in server.c to register the signal
+
+Stage-2 (Transfer EM registers from server to client using FIFO)
+ - Complete todos (2 to 6) in server.c to set up & write the EM registers to FIFO
+ - Complete todos (1 & 2) in client.c to set up the FIFO and read the EM register from FIFO
+ - Compile with make. Execute client.exe & server.exe in different shells
+ - The server display the library files in the current directory and send out the em registers over FIFO
+ - The client.exe should display values of Va, Vb and Vc sent out from the server
+
+Stage-3 (Update the Energy management registers)
++ Complete all the TODOs in update_registers.c & server.c (todos 7 to 12)
++ Complete the TODOs in libsem.c (1 to 5)
++ Execute all the 3 and the output from the client should display the register values periodically
+
+Stage-4 (Calculate max values by using thread)
++ Complete all the TODOs in register_update.c (todos 7 to 11)
++ Compile & execute register_updated.exe, server.exe and client.exe.
++ Observe the values changing for Va max, Vb max & Vc max
+
+Stage-5 (Synchronize the access to registers)
++ Complete all the TODOs in register_update.c (todos 12 to 21)
++ Compile & execute register_updated.exe, server.exe and client.exe.
++ Observe the values changing for Va max, Vb max & Vc max
+
+Stage-6 (Communicate using the socket)
++ Replace FIFO with socket in client.c & server.
