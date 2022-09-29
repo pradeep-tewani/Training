@@ -1,0 +1,11 @@
+named_socket_server.o: named_socket_server.c
+libsem.o: libsem.c
+libsock.o: libsock.c
+client.o: client.c sig.h em_registers.h
+register_update.o: register_update.c sem.h em_registers.h
+sock_client.o: sock_client.c
+named_socket_client.o: named_socket_client.c
+server.o: server.c sig.h em_registers.h sem.h sock.h
+sock_server_concurrent.o: sock_server_concurrent.c sock.h
+sock_server.o: sock_server.c sock.h
+libsig.o: libsig.c sig.h

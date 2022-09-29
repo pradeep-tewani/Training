@@ -1,0 +1,10 @@
+fifo_write.o: fifo_write.c
+popen2.o: popen2.c
+client.o: client.c sig.h em_registers.h
+fifo_server.o: fifo_server.c
+popen.o: popen.c
+pipe.o: pipe.c
+fifo_read.o: fifo_read.c
+server.o: server.c sig.h em_registers.h
+fifo_client.o: fifo_client.c sig.h
+libsig.o: libsig.c sig.h

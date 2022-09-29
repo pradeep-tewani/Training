@@ -1,0 +1,8 @@
+sem_one.o: sem_one.c sem.h
+libsem.o: libsem.c
+shared_mem.o: shared_mem.c
+client.o: client.c sig.h em_registers.h
+register_update.o: register_update.c sem.h em_registers.h
+sem_two.o: sem_two.c sem.h
+server.o: server.c sig.h em_registers.h sem.h
+libsig.o: libsig.c sig.h

@@ -1,0 +1,11 @@
+cons_prod_final.o: cons_prod_final.c
+libsem.o: libsem.c
+thread_cond.o: thread_cond.c
+client.o: client.c sig.h em_registers.h
+cons_prod.o: cons_prod.c
+register_update.o: register_update.c sem.h em_registers.h
+cons_prod_mutex.o: cons_prod_mutex.c
+thread_cond1.o: thread_cond1.c
+server.o: server.c sig.h em_registers.h sem.h
+libsig.o: libsig.c sig.h
+thread_rwlock.o: thread_rwlock.c

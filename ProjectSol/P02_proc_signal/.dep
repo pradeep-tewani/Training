@@ -1,0 +1,10 @@
+wait.o: wait.c
+waitpid.o: waitpid.c
+sig_info.o: sig_info.c sig.h
+orphan.o: orphan.c
+sig_int.o: sig_int.c sig.h
+test.o: test.c sig.h
+zombie.o: zombie.c
+sig_int1.o: sig_int1.c sig.h
+sig_mask.o: sig_mask.c sig.h
+libsig.o: libsig.c sig.h

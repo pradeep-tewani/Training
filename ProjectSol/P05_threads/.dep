@@ -1,0 +1,11 @@
+thread_return.o: thread_return.c
+libsem.o: libsem.c
+thread1.o: thread1.c
+client.o: client.c sig.h em_registers.h
+register_update.o: register_update.c sem.h em_registers.h
+thread_cancel.o: thread_cancel.c
+server.o: server.c sig.h em_registers.h sem.h
+thread_cancel_cleanup.o: thread_cancel_cleanup.c
+thread.o: thread.c
+thread_join.o: thread_join.c
+libsig.o: libsig.c sig.h
